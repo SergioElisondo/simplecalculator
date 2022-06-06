@@ -8,7 +8,7 @@ function add(){
     let num1 = document.getElementById('number1').value
     let num2 = document.getElementById('number2').value
     
-    document.getElementById('calculation').innerText = parseInt(Number(num1) + Number(num2))
+    document.getElementById('calculation').innerText = parseFloat(Number(num1) + Number(num2))
 }
 function sub(){
     let num1 = document.getElementById('number1').value
